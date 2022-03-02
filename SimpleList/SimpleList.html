@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List</title>
+    <link href="styles.css" rel="stylesheet">
+    <script type="text/javascript" src="node.js"></script>
+</script>
+
+</head>
+<body>
+    <div id="section1"  class="content">
+       <h4>Añadir a la lista:</h4>
+       <input id="texting">
+       <button type="button" type="submit" onclick="pushing(),printList()"> Enviar </button>
+       <button type="button"  onclick="deleting()">Eliminar</button>
+       <button type="button"  onclick="printList()">Imprimir lista</button>
+       <div id="list"></div>
+       <p onload="printList()"></p>  
+   </div>
+</body>
+</html>

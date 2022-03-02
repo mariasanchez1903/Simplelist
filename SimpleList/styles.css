@@ -1,0 +1,26 @@
+html {
+  background-color: #EDE7F6;
+}
+header{
+  background-color: #EDE7F6;
+}
+body {
+  margin: 0 auto;
+  background-color: #EDE7F6;
+  padding: 0 150px 100px 120px;
+}
+h2,h4{
+  font-size: 30px;
+  text-align: left;
+}
+
+button {
+    background-color: #EC407A; 
+    border: none;
+    color: white;
+    padding: 12px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
